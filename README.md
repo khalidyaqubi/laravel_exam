@@ -13,7 +13,7 @@
 <p>create .env file and put content from .env.example file</p>
 <p>create new database and write it in .env file</p>
 <p>run the command php artisan key:generate </p>
-<p>run the command php artisan migrate --seed</p>
+<p>run the command <span style="color:red">php artisan migrate --seed</p>
 
 
 <p>https://www.amcharts.com/demos/column-with-rotated-series/</p>
