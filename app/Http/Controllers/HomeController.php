@@ -15,7 +15,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-       // $this->middleware('auth');
+        // $this->middleware('auth');
     }
 
     /**
@@ -25,13 +25,13 @@ class HomeController extends Controller
      */
     public function index(Request $request)
     {
-         $country_id = $request["country_id"] ?$request["country_id"]:"";
-        
+        $country_id = $request["country_id"] ? $request["country_id"] : "";
+
         $cities = City::
         when($country_id, function ($query) use ($country_id) {
             return $query->where('country_id', $country_id);
         })->withcount('hospitals')->paginate(5);
         $countries = Country::all();
-        return view('home',compact('cities','countries'));
+        return view('home', compact('cities', 'countries'));
     }
 }
