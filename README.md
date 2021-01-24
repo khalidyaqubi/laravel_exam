@@ -16,4 +16,3 @@
 <p>run the command <span style="color:red">php artisan migrate --seed</p>
 
 
-<p>https://www.amcharts.com/demos/column-with-rotated-series/</p>

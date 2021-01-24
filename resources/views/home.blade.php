@@ -13,6 +13,7 @@
                             <li>تمكين خيار البحث من خلال تحديد اكثر من منطقة وليس منطقة واحد</li>
                             <li>تضمين نتيجة البحث مع ترقيم الصفحات paginate</li>
                             <li>استخدام احد رسومات البيانات مثل AmCharts أو GoogleCharts لتمثيل المدن وعدد المستشفيات
+                                <p>https://www.amcharts.com/demos/column-with-rotated-series/</p>
                             </li>
                         </ul>
                     </div>
